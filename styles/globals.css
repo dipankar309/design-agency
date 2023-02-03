@@ -1,3 +1,8 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+
+.Home_container__bCOhY{
+  padding: 0px !important;
+}

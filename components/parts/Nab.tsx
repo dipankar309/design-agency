@@ -1,8 +1,9 @@
 import Link from "next/link";
+import React from "react";
 
 export default function Nab() {
   return (
-    <div className="navbar bg-base-100 py-8">
+    <div className="navbar bg-transparent py-8 fixed z-10">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -56,9 +57,7 @@ export default function Nab() {
             <a>HOME</a>
           </li>
           <li tabIndex={0}>
-            <a>
-              ABOUT US
-            </a>
+            <a>ABOUT US</a>
           </li>
           <li>
             <a>COMPANY</a>
@@ -75,8 +74,8 @@ export default function Nab() {
         </ul>
       </div>
       <div className="navbar-end flex gap-x-5">
-        <a className="btn">LOG IN</a>
-        <a className="btn">SIGN IN</a>
+        <a className="btn btn-ghost">LOG IN</a>
+        <a className="btn btn-ghost">SIGN IN</a>
       </div>
     </div>
   );

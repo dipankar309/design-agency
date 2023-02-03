@@ -1,12 +1,12 @@
 import Link from "next/link"
-
+import React from "react";
 
 export default function Banner() {
-    return (
-        <section className="h-full">
-            banner sec
+    return(
+        <section className="h-screen bg-[#FFDE00] w-full">
+            <div className=" container mx-auto">
 
+            </div>
         </section>
-
     );
   }
