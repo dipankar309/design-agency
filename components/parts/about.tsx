@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
 
-function about() {
-    return (
-        <div>
-            
-        </div>
-    );
+export default function About() {
+  return (
+    <section className="h-screen bg-[#34AB01] w-full">
+      <div className="container mx-auto">
+            <h1>about</h1>
+      </div>
+    </section>
+  );
 }
 
-export default about;

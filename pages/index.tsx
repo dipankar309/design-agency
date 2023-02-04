@@ -3,6 +3,9 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Nab from "../components/parts/Nab";
 import Banner from "../components/parts/hero";
+import About from "../components/parts/about";
+import Company from "../components/parts/company";
+import Advantages from "../components/parts/advantages";
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +20,16 @@ const Home: NextPage = () => {
 
       <Banner />
 
+      <About />
+
+      <Company />
+
+      <Advantages />
+
       
+
+      
+
     </div>
   );
 };
