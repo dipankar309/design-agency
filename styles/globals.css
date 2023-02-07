@@ -6,3 +6,36 @@
 .Home_container__bCOhY{
   padding: 0px !important;
 }
+
+/* common css */
+
+.sec-space{
+  @apply py-12 md:py-16 lg:py-20 xl:py-28 relative
+}
+
+/* common css */
+
+
+/* hero sec */
+.hero-sec{
+  @apply h-screen bg-[#FFDE00] w-full sec-space flex items-center
+}
+
+.hero-title{
+  @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl
+}
+
+
+
+/* hero sec */
+
+
+/* about sec */
+
+
+
+
+
+/* about sec */
+
+
