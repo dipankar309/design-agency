@@ -2,9 +2,10 @@ import React from "react";
 
 export default function Company() {
   return (
-    <section className="h-screen bg-[#D72324] w-full">
+    <section className="company-sec ">
       <div className="container mx-auto">
-      Company
+        <h1 className="text-7xl text-base-100">Company</h1>
+        <h2 className="text-[7.5rem] text-base-100 font-extrabold">Dot.Design</h2>
       </div>
     </section>
   );

@@ -8,7 +8,6 @@
 }
 
 /* common css */
-
 .sec-space{
   @apply py-12 md:py-16 lg:py-20 xl:py-28 relative
 }
@@ -18,7 +17,7 @@
 
 /* hero sec */
 .hero-sec{
-  @apply h-screen bg-[#FFDE00] w-full sec-space flex items-center
+  @apply h-screen bg-[#FFDE00] sec-space flex items-center
 }
 
 .hero-title{
@@ -26,16 +25,26 @@
 }
 
 
-
-/* hero sec */
-
-
 /* about sec */
 
 
+.about-sec{
+  @apply relative sec-space flex items-center h-screen bg-[#34AB01]
+}
 
 
+/* company sec */
 
-/* about sec */
+.company-sec{
+  @apply relative sec-space flex items-center h-screen bg-[#D72324]
+}
+
+/* Advantages */
+
+.advantages-sec{
+  @apply relative sec-space flex items-center h-screen
+}
+
+
 
 
