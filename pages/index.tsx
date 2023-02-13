@@ -7,6 +7,8 @@ import About from "../components/parts/about";
 import Company from "../components/parts/company";
 import Advantages from "../components/parts/advantages";
 
+import Contact from "../components/parts/contact";
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -25,6 +27,8 @@ const Home: NextPage = () => {
       <Company />
 
       <Advantages />
+
+      <Contact />
 
       
 
