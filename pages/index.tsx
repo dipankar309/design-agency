@@ -6,9 +6,10 @@ import Banner from "../components/parts/hero";
 import About from "../components/parts/about";
 import Company from "../components/parts/company";
 import Advantages from "../components/parts/advantages";
-import GoogleFontLoader from 'react-google-font-loader';
 
 import Contact from "../components/parts/contact";
+
+import Slider from "../components/parts/Slider";
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,9 @@ const Home: NextPage = () => {
       </Head>
 
       <Nab />
+
+
+      <Slider />``
 
       <Banner />
 
