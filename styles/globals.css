@@ -21,7 +21,7 @@
 }
 
 .hero-title{
-  @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl
+  @apply text-3xl md:text-4xl lg:text-5xl xl:text-[120px] font-bold
 }
 
 
@@ -45,6 +45,12 @@
   @apply relative sec-space flex items-center h-screen
 }
 
+
+/* contact us sec */
+
+.contact{
+  @apply bg-[#34AB01] h-screen 
+}
 
 
 

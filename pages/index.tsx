@@ -6,6 +6,7 @@ import Banner from "../components/parts/hero";
 import About from "../components/parts/about";
 import Company from "../components/parts/company";
 import Advantages from "../components/parts/advantages";
+import GoogleFontLoader from 'react-google-font-loader';
 
 import Contact from "../components/parts/contact";
 

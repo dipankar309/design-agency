@@ -53,7 +53,7 @@ export default function Nab() {
           <a className="btn btn-ghost normal-case text-xl">Dot.Design</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal p-0">
+          <ul className="menu menu-horizontal text-black p-0">
             <li>
               <a>HOME</a>
             </li>
