@@ -53,7 +53,7 @@
 }
 
 .swiper {
-  @apply h-full w-full;
+  @apply h-screen w-full;
 }
 
 .swiper-slide {
