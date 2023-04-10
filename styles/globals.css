@@ -27,14 +27,14 @@
 
 
 .about-sec{
-  @apply relative sec-space flex items-center h-screen bg-[#34AB01]
+  @apply relative sec-space flex items-center justify-items-start h-screen bg-[#34AB01]
 }
 
 
 /* company sec */
 
 .company-sec{
-  @apply relative sec-space flex items-center h-screen bg-[#D72324]
+  @apply relative sec-space flex items-center h-screen bg-[#D72324] w-full
 }
 
 /* Advantages */
@@ -63,10 +63,9 @@
 }
 
 
-
 @layer components{
   .contact-container{
-    @apply w-full md:w-full lg:w-[984px] mx-auto
+    @apply w-full md:w-full lg:w-[984px] mx-auto flex flex-col justify-start items-start
   }
   
   .hero-title{
