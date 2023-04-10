@@ -20,9 +20,7 @@
   @apply h-screen bg-[#FFDE00] sec-space flex items-center
 }
 
-.hero-title{
-  @apply text-3xl md:text-4xl lg:text-5xl xl:text-[120px] font-bold
-}
+
 
 
 /* about sec */
@@ -65,3 +63,13 @@
 }
 
 
+
+@layer components{
+  .contact-container{
+    @apply w-full md:w-full lg:w-[984px] mx-auto
+  }
+  
+  .hero-title{
+    @apply text-[40px] md:text-[60px] lg:text-[80px] xl:text-[100px] 2xl:text-[120px] font-bold leading-normal 
+  }
+}
