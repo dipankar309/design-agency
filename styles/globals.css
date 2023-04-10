@@ -34,7 +34,7 @@
 /* company sec */
 
 .company-sec{
-  @apply relative sec-space flex items-center h-screen bg-[#D72324] w-full
+  @apply relative sec-space flex h-screen bg-[#D72324] w-full
 }
 
 /* Advantages */
@@ -62,7 +62,6 @@
   @apply block w-full h-full object-cover
 }
 
-
 @layer components{
   .contact-container{
     @apply w-full md:w-full lg:w-[984px] mx-auto flex flex-col justify-start items-start
@@ -71,4 +70,5 @@
   .hero-title{
     @apply text-[40px] md:text-[60px] lg:text-[80px] xl:text-[100px] 2xl:text-[120px] font-bold leading-normal 
   }
+  
 }
