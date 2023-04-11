@@ -49,6 +49,7 @@ const Home: NextPage = () => {
         pagination={{clickable: true,}}
         modules={[FreeMode, Scrollbar, Mousewheel, Pagination]}
         className="mySwiper"
+        cssMode={true}
       >
         <SwiperSlide>
           <Banner />
