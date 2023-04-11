@@ -1,8 +1,15 @@
 import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, useSwiper  } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/free-mode";
+import "swiper/css/scrollbar";
 import { Pagination } from "swiper";
+import { Mousewheel } from 'swiper';
+import { FreeMode } from "swiper";
+import { Scrollbar } from "swiper";
+
+
 
 
 import type { NextPage } from "next";
@@ -16,7 +23,7 @@ import Advantages from "../components/parts/advantages";
 
 import Contact from "../components/parts/contact";
 
-// import Slider from "../components/parts/Slider";
+import Slider from "../components/parts/Slider";
 
 
 
@@ -36,6 +43,9 @@ const Home: NextPage = () => {
         pagination={{
           clickable: true,
         }}
+        mousewheel={true}
+
+
         modules={[Pagination]}
         className="mySwiper"
       >

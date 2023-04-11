@@ -1,18 +1,27 @@
 import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, useSwiper  } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/free-mode";
+import "swiper/css/scrollbar";
 import { Pagination } from "swiper";
+import { Mousewheel } from 'swiper';
+import { FreeMode } from "swiper";
+import { Scrollbar } from "swiper";
 
 
 export default function Slider() {
   return (
 <Swiper
         direction={"vertical"}
+        slidesPerView={"auto"}
+        mousewheel={true}
+        freeMode={true}
+        scrollbar={true}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        modules={[FreeMode, Scrollbar, Mousewheel,Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>Slide 1</SwiperSlide>

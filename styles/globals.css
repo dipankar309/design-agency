@@ -70,5 +70,11 @@
   .hero-title{
     @apply text-[40px] md:text-[60px] lg:text-[80px] xl:text-[100px] 2xl:text-[120px] font-bold leading-normal 
   }
+
   
+}
+
+.swiper-vertical .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets
+{
+  right:5vmin !important ;
 }
