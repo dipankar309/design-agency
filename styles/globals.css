@@ -78,3 +78,13 @@
 {
   right:5vmin !important ;
 }
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+  @apply w-[12px] h-[12px] bg-transparent 
+}
+
+
+.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, 
+.swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{
+   @apply bg-[#FFFFFF] border-[1px] border-[#FFF]
+}
