@@ -25,9 +25,6 @@ import Contact from "../components/parts/contact";
 
 // import Slider from "../components/parts/Slider";
 
-
-
-
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
