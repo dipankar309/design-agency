@@ -45,7 +45,7 @@ const Home: NextPage = () => {
         freeMode={true}
         scrollbar={true}
         parallax={true}
-        speed={600}
+        speed={600} 
         pagination={{clickable: true,}}
         modules={[FreeMode, Scrollbar, Mousewheel, Pagination]}
         className="mySwiper"
