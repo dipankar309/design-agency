@@ -1,13 +1,13 @@
 import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide, useSwiper  } from "swiper/react";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
-import { Pagination } from "swiper";
 import { Mousewheel } from 'swiper';
 import { FreeMode } from "swiper";
 import { Scrollbar } from "swiper";
+import { Pagination } from "swiper";
 
 
 
@@ -23,7 +23,7 @@ import Advantages from "../components/parts/advantages";
 
 import Contact from "../components/parts/contact";
 
-import Slider from "../components/parts/Slider";
+// import Slider from "../components/parts/Slider";
 
 
 
@@ -40,13 +40,14 @@ const Home: NextPage = () => {
 
       <Swiper
         direction={"vertical"}
-        pagination={{
-          clickable: true,
-        }}
+        slidesPerView={1}
         mousewheel={true}
-
-
-        modules={[Pagination]}
+        freeMode={true}
+        scrollbar={true}
+        parallax={true}
+        speed={600}
+        pagination={{clickable: true,}}
+        modules={[FreeMode, Scrollbar, Mousewheel, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
@@ -64,30 +65,7 @@ const Home: NextPage = () => {
         <SwiperSlide>
           <Contact />
         </SwiperSlide>
-        {/* <SwiperSlide>
-
-        </SwiperSlide>
-        <SwiperSlide>
-
-        </SwiperSlide>
-        <SwiperSlide>
-
-        </SwiperSlide> */}
-
       </Swiper>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     </div>
   );
