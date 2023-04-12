@@ -22,8 +22,7 @@ import Company from "../components/parts/company";
 import Advantages from "../components/parts/advantages";
 
 import Contact from "../components/parts/contact";
-
-// import Slider from "../components/parts/Slider";
+import Project from "../components/parts/project";
 
 const Home: NextPage = () => {
   return (
@@ -42,7 +41,7 @@ const Home: NextPage = () => {
         freeMode={true}
         scrollbar={true}
         parallax={true}
-        speed={600} 
+        speed={2000} 
         pagination={{clickable: true,}}
         modules={[FreeMode, Scrollbar, Mousewheel, Pagination]}
         className="mySwiper"
@@ -51,15 +50,23 @@ const Home: NextPage = () => {
         <SwiperSlide>
           <Banner />
         </SwiperSlide>
+
         <SwiperSlide>
           <About />
         </SwiperSlide>
+
         <SwiperSlide>
           <Company />
         </SwiperSlide>
+
         <SwiperSlide>
           <Advantages />
         </SwiperSlide>
+
+        <SwiperSlide>
+          <Project />
+        </SwiperSlide>
+
         <SwiperSlide>
           <Contact />
         </SwiperSlide>
