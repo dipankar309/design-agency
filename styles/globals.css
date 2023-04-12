@@ -71,10 +71,22 @@
     @apply text-[40px] md:text-[60px] lg:text-[80px] xl:text-[100px] 2xl:text-[120px] font-bold leading-normal 
   }
 
+  .sec-title{
+    @apply text-[70px] font-extrabold 
+  }
+
   
 }
 
-.swiper-vertical .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets
+
+.project{
+  @apply h-screen w-full bg-[#FFDE00]
+}
+
+
+
+.swiper-vertical .swiper-pagination-vertical.swiper-pagination-bullets,
+.swiper-vertical>.swiper-pagination-bullets
 {
   right:5vmin !important ;
 }
@@ -82,7 +94,6 @@
 .swiper-pagination-clickable .swiper-pagination-bullet{
   @apply w-[12px] h-[12px] bg-transparent 
 }
-
 
 .swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, 
 .swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{
