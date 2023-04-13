@@ -9,8 +9,6 @@ export default function Contact() {
               Contact
           </h1>
         </div>
-
-
       </div>
     </section>
   );
