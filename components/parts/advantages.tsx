@@ -4,7 +4,7 @@ export default function Advantages() {
   return (
     <section className="advantages-sec bg-[#252525] ">
       <div className="container mx-auto">
-        <h1 className="text-[70px] font-semibold text-base-100">Advantages</h1>
+        <h1 className="sec-title text-base-100">Advantages</h1>
 
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> 
 
