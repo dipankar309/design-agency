@@ -42,7 +42,7 @@ export default function Advantages() {
               </div>
               <article className=" flex justify-start text-white">
                 <p>
-                  we make futuristics digital projects which is easy to sell.
+                  we make futuristic digital projects which is easy to sell.
                 </p>
               </article>
             </div>
