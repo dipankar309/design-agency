@@ -22,9 +22,9 @@ export default function Advantages() {
                   High Quality
                 </h2>
               </div>
-              <article>
+              <article className=" flex justify-start text-white">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  we make cool projects and always responsible for quality design.
                 </p>
               </article>
             </div>
@@ -40,9 +40,9 @@ export default function Advantages() {
                   UX Design
                 </h2>
               </div>
-              <article>
+              <article className=" flex justify-start text-white">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  we make futuristics digital projects which is easy to sell.
                 </p>
               </article>
             </div>
@@ -62,9 +62,9 @@ export default function Advantages() {
                   To The End
                 </h2>
               </div>
-              <article>
+              <article className=" flex justify-start text-white">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  we accompany projects till end. so that it can be easy for clients.
                 </p>
               </article>
             </div>
@@ -88,9 +88,9 @@ export default function Advantages() {
                   Quick Operation
                 </h2>
               </div>
-              <article>
+              <article className=" flex justify-start text-white">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  our team is ready to work on any complex projects in a short time.
                 </p>
               </article>
             </div>
@@ -111,9 +111,9 @@ export default function Advantages() {
                   The Best Minds
                 </h2>
               </div>
-              <article>
+              <article className=" flex justify-start text-white">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  our team is having full of professionals and creative thinkers
                 </p>
               </article>
             </div>
@@ -131,9 +131,9 @@ export default function Advantages() {
                   Quality Assurance
                 </h2>
               </div>
-              <article>
+              <article className=" flex justify-start text-white">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  we can say with responsibility that our design will bring money.
                 </p>
               </article>
             </div>
