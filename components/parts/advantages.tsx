@@ -7,7 +7,7 @@ export default function Advantages() {
         <div className="contact-container">
           <h1 className="sec-title text-[#ffffff] relative leading-normal">Advantages</h1>
 
-          <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full mt-[1.8rem] sm:mt-[2.8rem] md:mt-[3.8rem] lg:mt-[4.8rem] xl:mt-[5.875rem]">
+          <section className="max-w-[700px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full mt-[1.8rem] sm:mt-[2.8rem] md:mt-[3.8rem] lg:mt-[4.8rem] xl:mt-[5.875rem]">
 
             <div className="advantages-card">
               <div className="c-title">
@@ -22,7 +22,7 @@ export default function Advantages() {
                   High Quality
                 </h2>
               </div>
-              <article className=" flex justify-start text-white">
+              <article className="c-content">
                 <p>
                   we make cool projects and always responsible for quality design.
                 </p>
@@ -40,7 +40,7 @@ export default function Advantages() {
                   UX Design
                 </h2>
               </div>
-              <article className=" flex justify-start text-white">
+              <article className="c-content">
                 <p>
                   we make futuristic digital projects which is easy to sell.
                 </p>
@@ -56,13 +56,12 @@ export default function Advantages() {
                     <path d="M7.23828 7.03516H4.19141C3.71094 7.03516 3.3125 7.43359 3.3125 7.91406C3.3125 8.39453 3.71094 8.79297 4.19141 8.79297H7.23828C7.71875 8.79297 8.11719 8.39453 8.11719 7.91406C8.11719 7.43359 7.73047 7.03516 7.23828 7.03516Z" fill="#F9F9F9" />
                     <path d="M7.23828 10.2344H6.18359C5.70313 10.2344 5.30469 10.6328 5.30469 11.1133C5.30469 11.5938 5.70313 11.9922 6.18359 11.9922H7.23828C7.71875 11.9922 8.11719 11.5938 8.11719 11.1133C8.11719 10.6328 7.73047 10.2344 7.23828 10.2344Z" fill="#F9F9F9" />
                   </svg>
-
                 </figure>
                 <h2 className="text-white">
                   To The End
                 </h2>
               </div>
-              <article className=" flex justify-start text-white">
+              <article className="c-content">
                 <p>
                   we accompany projects till end. so that it can be easy for clients.
                 </p>
@@ -88,7 +87,7 @@ export default function Advantages() {
                   Quick Operation
                 </h2>
               </div>
-              <article className=" flex justify-start text-white">
+              <article className="c-content">
                 <p>
                   our team is ready to work on any complex projects in a short time.
                 </p>
@@ -111,7 +110,7 @@ export default function Advantages() {
                   The Best Minds
                 </h2>
               </div>
-              <article className=" flex justify-start text-white">
+              <article className="c-content">
                 <p>
                   our team is having full of professionals and creative thinkers
                 </p>
@@ -131,7 +130,7 @@ export default function Advantages() {
                   Quality Assurance
                 </h2>
               </div>
-              <article className=" flex justify-start text-white">
+              <article className="c-content">
                 <p>
                   we can say with responsibility that our design will bring money.
                 </p>

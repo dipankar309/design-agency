@@ -20,7 +20,7 @@
   }
 
   .sec-title{
-    @apply text-[70px] font-extrabold 
+    @apply text-[70px] font-extrabold
   }
 
   .sec-space{
@@ -33,7 +33,7 @@
   }
 
   .c-title{
-    @apply flex
+    @apply  flex gap-6 items-center
   }
 
 }
@@ -67,6 +67,10 @@
 
 .advantages-sec{
   @apply relative sec-space flex items-center h-screen
+}
+
+.c-cokntent{
+  @apply flex justify-start text-white
 }
 
 
