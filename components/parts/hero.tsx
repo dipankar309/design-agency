@@ -10,7 +10,6 @@ export default function Banner() {
             <h1 className="hero-title w-fit text-black">
               <span>Design</span>
             </h1>
-
             <span className="flex w-12 bottom-b-2 border-black h-1 z-10"></span>
           </div>
           <span className="text-black absolute flex ">

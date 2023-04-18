@@ -6,7 +6,7 @@ export default function About() {
       <div className="container mx-auto">
         <div className="contact-container">
         <h1 className="text-[#fff] text-7xl font-bold mb-8">About Us</h1>
-        <p className="text-[#fff] text-lg md:text-xl lg:text-2xl text-left">
+        <p className="text-[#fff] text-lg md:text-xl lg:text-[22px] text-left">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -20,7 +20,7 @@ export default function About() {
         <section className="btn-wrapper mt-10">
           <a
             href=""
-            className="btn bg-[#fff] btn-xs sm:btn-sm md:btn-md lg:btn-lg text-black outline-none border-0"
+              className="btn-primary"
           >
             Read More
           </a>

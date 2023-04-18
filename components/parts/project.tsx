@@ -5,7 +5,7 @@ export default function Project() {
         <section className='project'>
             <div className='continuer mx-auto'>
                 <div className='contact-container'>
-                    <h1 className='sec-title'>
+                    <h1 className='sec-title '>
                         Our Projects
                     </h1>
 

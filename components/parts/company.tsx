@@ -5,15 +5,18 @@ export default function Company() {
     <section className="company-sec ">
       <div className="container mx-auto">
         <div className="contact-container">
-          
-          <h1 className="text-7xl text-[#fff] leading-normal">Company</h1>
 
-          <h2 className="text-[7.5rem] text-[#fff] font-extrabold leading-normal">
-            Dot.Design
-          </h2>
+          <h1 className="text-7xl text-[#fff] leading-[1.2]">Company</h1>
+
+          <div className="xl:ml-36 lg:ml-24">
+            <h2 className="text-[7.5rem] text-[#fff] font-extrabold leading-[1.2]">
+              Dot.Design
+            </h2>
+
+          </div>
 
           <section className="btn-wrapper mt-10 flex justify-center w-full ">
-            <a href="" className="btn bg-[#fff] btn-xs sm:btn-sm md:btn-md lg:btn-lg text-black outline-none border-0">
+            <a href="" className="btn-primary">
               Contact us
             </a>
           </section>
