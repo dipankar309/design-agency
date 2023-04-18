@@ -109,7 +109,7 @@ export default function Advantages() {
                 <h2 className="text-white">
                   The Best Minds
                 </h2>
-              </div>
+              </div> 
               <article className="c-content">
                 <p>
                   our team is having full of professionals and creative thinkers
