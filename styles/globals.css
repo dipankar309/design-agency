@@ -106,18 +106,16 @@
   @apply block w-full h-full object-cover
 }
 
-
 /* project sec */
-
-
 
 .project{
   @apply h-screen w-full flex relative bg-[#FFDE00] sec-space items-center justify-center
 }
 
-.project-card-grid{
-  @apply w-full  grid  grid-columns-2 gap-4 
+.project-card-grid {
+  @apply grid grid-col-2 gap-4;
 }
+
 
 /* swiper */
 
