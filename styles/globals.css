@@ -107,13 +107,11 @@
 }
 
 /* project sec */
-
 .project{
   @apply h-screen w-full flex relative bg-[#FFDE00] sec-space items-center justify-center
 }
-
-.project-card-grid {
-  @apply grid grid-col-2 gap-4;
+.project-card-wrapper {
+  @apply grid grid-cols-1 gap-4;
 }
 
 
@@ -133,3 +131,4 @@
 .swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{
    @apply bg-[#FFFFFF] border-[1px] border-[#FFF]
 }
+

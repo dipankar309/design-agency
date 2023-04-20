@@ -9,9 +9,10 @@ export default function Project() {
                         Our Projects
                     </h1>
 
-                    <section className='project-card-grid'> 
+                    <section className='project-card-wrapper'> 
                         
                     </section>
+                    
                 </div>
             </div>
         </section>
