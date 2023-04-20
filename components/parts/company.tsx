@@ -15,7 +15,16 @@ export default function Company() {
 
           </div>
 
-          <section className="btn-wrapper mt-10 flex justify-center w-full ">
+          <section className="btn-wrapper mt-10 flex justify-center w-full items-center relative ">
+            <p className="text-white  absolute left-0">
+              <span>
+                We make
+              </span>
+              
+              <span>
+                Futuristic Design
+              </span>
+            </p>
             <a href="" className="btn-primary">
               Contact us
             </a>
