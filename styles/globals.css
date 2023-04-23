@@ -113,13 +113,18 @@ body{
   @apply h-screen w-full flex relative bg-[#FFDE00] sec-space items-center justify-center
 }
 .project-card-wrapper {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-6 relative mt-20 
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-12 relative mt-20 
 }
 
 .pc-card{
-  @apply bg-red-600 w-full h-36
+  @apply bg-red-600 w-full h-fit flex 
 }
 
+.pvt {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  @apply rotate-180
+}
 
 /* swiper */
 
