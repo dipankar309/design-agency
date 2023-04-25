@@ -28,7 +28,7 @@ body{
   }
 
   .sec-title{
-    @apply text-[70px] font-extrabold leading-[1.5]
+    @apply text-[70px] font-extrabold leading-[1.5] text-left
   }
 
   .btn-primary{
@@ -51,6 +51,14 @@ body{
 
   .c-title{
     @apply  flex gap-4 items-center
+  } 
+
+  .contact-title{
+    @apply text-left font-semibold text-[22px]
+  }
+
+  .contact-info{
+    @apply text-[17px] font-normal
   }
 
 }
