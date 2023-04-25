@@ -6,8 +6,18 @@ export default function Contact() {
       <div className="container mx-auto">
         <div className="content-container">
           <h1 className="sec-title">
-              Contact
+            Contact
           </h1>
+
+          <section className="flex">
+            <div className="">
+
+            </div>
+            <div>
+            </div>
+
+          </section>
+
         </div>
       </div>
     </section>
