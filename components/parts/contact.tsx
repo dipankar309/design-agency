@@ -19,7 +19,7 @@ export default function Contact() {
                   New Town, Kolkata
                   West Bengal
                 </p>
-      
+
               </div>
               <div className="w-full text-white">
                 <h2 className="contact-title">
@@ -36,11 +36,18 @@ export default function Contact() {
             </div>
             <div className="w-full md:w-1/2">
 
-              <form action="" className="w-[313px] h-[341px] bg-white rounded-lg py6 px-8">
-                <h2 className="text-center">
+              <form action="" className="w-[313px] h-[341px] bg-white rounded-lg py-6 px-8">
+                <h2 className="text-center text-black font-semibold mb-4">
                   Get In Touch
                 </h2>
-                
+
+                <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs mb-4" />
+                <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs mb-4" />
+                <textarea className="textarea w-full" placeholder="Bio"></textarea>
+                <button className="btn">Button</button>
+
+
+
               </form>
 
             </div>
