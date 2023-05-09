@@ -125,6 +125,7 @@ body{
 .project{
   @apply h-screen w-full flex relative bg-[#FFDE00] sec-space items-center justify-center
 }
+
 .project-card-wrapper {
   @apply max-w-[800px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-12 relative mt-20 
 }
@@ -133,12 +134,15 @@ body{
   @apply w-full h-fit flex gap-2
 }
 
+<<<<<<< HEAD
+=======
 .pvt {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   @apply rotate-180 flex justify-end text-base
 }
 
+>>>>>>> 0704cb62291b89a0e27cf24f5d207331b5666f3e
 /* swiper */
 
 .swiper-vertical .swiper-pagination-vertical.swiper-pagination-bullets,
