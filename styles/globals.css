@@ -2,16 +2,18 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-
 .Home_container__bCOhY{
   padding: 0px !important;
+}
+body{
+  font-family: montserrat;
 }
 
 /* common css */
 
 @layer base{
   p{
-    @apply text-left
+    @apply text-left font-["Montserrat"]
   }
 }
 
@@ -26,11 +28,16 @@
   }
 
   .sec-title{
-    @apply text-[70px] font-extrabold leading-[1.5]
+    @apply text-[70px] font-extrabold leading-[1.5] text-left
   }
 
   .btn-primary{
    @apply bg-[#fff] hover:bg-[#fff] text-black outline-none border-0 px-12 py-4 text-xl rounded-xl font-medium
+  }
+
+  .btn-secondary{
+    @apply bg-transparent flex gap-3 items-center hover:bg-transparent border-2 border-[#000000] hover:border-[#000000]
+     text-black w-fit outline-none px-8 py-4 text-xl rounded-xl font-medium
   }
 
   .sec-space{
@@ -44,6 +51,14 @@
 
   .c-title{
     @apply  flex gap-4 items-center
+  } 
+
+  .contact-title{
+    @apply text-left font-semibold text-[22px]
+  }
+
+  .contact-info{
+    @apply text-[17px] font-normal
   }
 
 }
@@ -112,13 +127,22 @@
 }
 
 .project-card-wrapper {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-6 relative mt-20 
+  @apply max-w-[800px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-12 relative mt-20 
 }
 
 .pc-card{
-  @apply bg-red-600 w-full h-36
+  @apply w-full h-fit flex gap-2
 }
 
+<<<<<<< HEAD
+=======
+.pvt {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  @apply rotate-180 flex justify-end text-base
+}
+
+>>>>>>> 0704cb62291b89a0e27cf24f5d207331b5666f3e
 /* swiper */
 
 .swiper-vertical .swiper-pagination-vertical.swiper-pagination-bullets,
@@ -135,4 +159,3 @@
 .swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{
    @apply bg-[#FFFFFF] border-[1px] border-[#FFF]
 }
-
