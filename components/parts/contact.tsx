@@ -9,8 +9,9 @@ export default function Contact() {
             Contact
           </h1>
 
-          <section className="flex">
+          <section className="flex w-full">
             <div className="w-full md:w-1/2">
+
               <div className="w-full text-white">
                 <h2 className="contact-title ">
                   Address -
@@ -19,8 +20,8 @@ export default function Contact() {
                   New Town, Kolkata
                   West Bengal
                 </p>
-
               </div>
+
               <div className="w-full text-white">
                 <h2 className="contact-title">
                   Address -
@@ -34,26 +35,19 @@ export default function Contact() {
               </div>
 
             </div>
+            
             <div className="w-full md:w-1/2">
-
               <form action="" className="w-[313px] h-[341px] bg-white rounded-lg py-6 px-8">
                 <h2 className="text-center text-black font-semibold mb-4">
                   Get In Touch
                 </h2>
-
-                <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs mb-4" />
-                <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs mb-4" />
-                <textarea className="textarea w-full" placeholder="Bio"></textarea>
-                <button className="btn">Button</button>
-
-
-
+                <input type="text" placeholder="Type here" className="input input-element" />
+                <input type="text" placeholder="Type here" className="input input-element" />
+                <textarea className="textarea w-full bg-[#EEEEEE]" placeholder="Bio"></textarea>
+                <button className="btn ">Send</button>
               </form>
-
             </div>
-
           </section>
-
         </div>
       </div>
     </section>
