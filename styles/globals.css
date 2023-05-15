@@ -61,6 +61,10 @@ body{
     @apply text-[17px] font-normal
   }
 
+  .input-element{
+    @apply bg-[#EEEEEE] w-full max-w-xs mb-4 input-bordered text-sm
+  }
+
 }
 
 
