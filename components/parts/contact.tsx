@@ -5,25 +5,27 @@ export default function Contact() {
     <section className="contact">
       <div className="container mx-auto">
         <div className="contact-container">
-          <h1 className="sec-title text-white">
+          <h1 className="sec-title text-white mb-8 md:mb-12 lg:mb-16 xl:mb-20 after-line after:bg-[#ffffff]">
             Contact
           </h1>
 
-          <section className="flex w-full">
-            <div className="w-full md:w-1/2">
+          <section className="flex w-full ">
+            <div className="w-full md:w-1/2 flex flex-col gap-6 mg:gap-10 lg:gap-16">
 
               <div className="w-full text-white">
-                <h2 className="contact-title ">
+                <h2 className="contact-title mb-2 ">
                   Address -
                 </h2>
                 <p className="contact-info">
-                  New Town, Kolkata
-                  West Bengal
+                  New Town, 
+                </p>
+                <p className="contact-info">
+                  Kolkata West Bengal
                 </p>
               </div>
 
               <div className="w-full text-white">
-                <h2 className="contact-title">
+                <h2 className="contact-title mb-2">
                   Address -
                 </h2>
                 <p className="contact-info">
