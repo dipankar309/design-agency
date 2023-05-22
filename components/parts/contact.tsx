@@ -9,7 +9,7 @@ export default function Contact() {
             Contact
           </h1>
 
-          <section className="flex w-full ">
+          <section className="flex w-full flex-col lg:flex-row ">
             <div className="w-full md:w-1/2 flex flex-col gap-6 mg:gap-10 lg:gap-16">
 
               <div className="w-full text-white">

@@ -5,7 +5,7 @@ export default function About() {
     <section className="about-sec">
       <div className="container mx-auto">
         <div className="contact-container">
-        <h1 className="text-[#fff] text-7xl font-bold mb-8">About Us</h1>
+          <h1 className="text-[#fff] text-7xl font-bold mb-8 after-line after:bg-[#ffffff]">About Us</h1>
         <p className="text-[#fff] text-lg md:text-xl lg:text-[22px] text-left leading-8 font-normal">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

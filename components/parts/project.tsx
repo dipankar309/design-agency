@@ -14,7 +14,7 @@ export default function Project() {
         <section className='project'>
             <div className='continuer mx-auto'>
                 <div className='contact-container'>
-                    <h1 className='sec-title text-black '>
+                    <h1 className='sec-title text-black after-line after:bg-[#000000]'>
                         Our Projects
                     </h1>
 
